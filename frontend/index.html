@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas fisicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Pessoas físicas</h1>
+        <form id="formEndereco">
+            <label for="Nome"></label>
+            <input type="text" id="Nome" name="Nome" required placeholder="Nome:">
+
+            <label for="CPF"></label>
+            <input type="text" id="CPF" name="CPF" required placeholder="CPF:">
+
+            <label for="Telefone"></label>
+            <input type="text" id="Telefone" name="Telefone" required placeholder="Telefone">
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
